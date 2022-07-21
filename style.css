@@ -1,0 +1,368 @@
+/* common css */
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common css end */
+
+/* main sextion  */
+main{
+    width: 1321px;
+    margin: 3.5rem auto;
+}
+/* banner section */
+.banner{
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.banner-text{
+    width: 50%;
+    padding: 80px;
+}
+
+.banner-text h1{
+    color: #ffff;
+    font-size: 70px;
+}
+
+.banner-img{
+    width: 50%;
+    padding: 45px;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-text p{
+    margin-top: 10px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.banner-text a{
+    color: #FFFFFF;
+    text-decoration: none;
+} 
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center; 
+    background-color: #DD0000;
+    border: none;
+    width: 187px;
+    height: 56px;
+    color: white;
+}
+
+/* banner section end */
+
+/* 2nd section stard */
+.navmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    gap: 1.2rem;
+    padding: 2rem;
+    height: 28vh;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.menu-blog-data{
+    padding-top: 5rem;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+.navmenu a{
+    padding: 15px 10px;
+    text-decoration: none;
+    width: 180px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+.color-btn{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+.a_menu{
+    background-color: #FFFFFF;
+    color: #161616;
+}
+
+/* blog section stard */
+
+.blog-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.blog-data{
+    border:  1px solid #E8E8E8;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.blog-detail{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.blog-text h3{
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 1px;
+}
+.blog-icon-info{
+    display: flex;
+}
+.time-icon, .com-icon{
+    display: flex;
+    gap: 10px;
+}
+.time-icon{
+    margin-right: 20px;
+}
+.blog-btn{
+    margin: 5px;
+    padding: 5px 25px;
+    font-weight: 600;
+}
+
+.tab-button{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+/* another page */
+
+.upcomming{
+    
+    padding: 50px;
+}
+
+.upcomming-contry{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.upcomming-time{
+    margin-left: 50px;
+    color: #4D4D4D ;
+    font-size: 16px;
+}
+
+/* another page end */
+
+
+/* footer start  */
+footer{
+    background-color: #161616;
+    padding: 5rem;
+
+}
+footer h2{
+    font-size: 2.5em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.f-nav-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.f-nav-menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.hr{
+    width: 90%;
+    background-color: #FFFFFF;
+    border: 0;
+    height: 1px;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+/* media query start for TAB */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    main{
+        width: 550px;
+        margin: 3rem auto;
+    }
+
+    .banner{
+        width: 734px;
+        height: 398px;
+        
+    }
+    .banner h1{
+        font-size: 20px;
+    }
+    
+
+    /* .banner-text h1{
+        width: 50%;
+    } */
+
+    .blog-main{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .menu-blog-data{
+        flex-direction: column;
+        
+    } 
+
+    .navmenu{
+        width: 100%;
+        background-color: #FFFFFF;
+        flex-direction: row;
+        border-radius: 10px;
+        padding: 10px;
+        height: 5vh;
+        
+
+    }
+    .tab-button{
+        display: flex;
+        justify-content: center;
+    }
+    .navmenu a{
+        border: 1px solid gray;
+        padding: 10px 10px;
+        margin-top: -50px;
+        font-size: 17px;
+    }
+}
+
+/* media query start for mobile device */
+@media only screen and (max-width: 688px) {
+    main {
+        width: 400px;
+        margin: 3rem auto;
+    
+
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 600px;
+        
+        
+    }
+
+    .banner-text h1{
+        width: 300px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .banner-text p{
+        width: 300px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .btn{
+        padding: 5px;
+        font-size: 15px;
+        width: 140px;
+        align-items: center;
+        
+    }
+    .banner-img{
+        width: 350px;
+        height: 400px;
+        margin-top: -75px;
+
+    }
+    
+    .blog-main{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .menu-blog-data{
+        flex-direction: column;
+    } 
+
+    .navmenu{
+        width: 100%;
+        background-color: #FFFFFF;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 100px;
+        height: 1vh;
+        
+
+    }
+    .navmenu a{
+        border: 1px solid gray;
+        padding: 10px 10px;
+        font-size: 17px;
+    }
+
+    .f-nav-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+
+}
+
