@@ -131,8 +131,9 @@ main{
 }
 
 .blog-text h3{
-    font-weight: 300;
-    font-size: 15px;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 14px;
     margin-right: 1px;
 }
 .blog-icon-info{
