@@ -306,6 +306,24 @@ footer h2{
         flex-direction: column;
         text-align: center;
     }
+    .banner-text h1{
+        width: 400px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .banner-text p{
+        width: 300px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .banner-img{
+        width: 650px;
+        margin-top: 60px;
+
+    }
 }
 
 /* media query start for mobile device */
