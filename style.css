@@ -131,7 +131,7 @@ main{
 }
 
 .blog-text h3{
-    font-weight: 500;
+    font-weight: 300;
     font-size: 15px;
     margin-right: 1px;
 }
@@ -261,14 +261,22 @@ footer h2{
     } */
 
     .blog-main{
-        grid-template-columns: repeat(2, 1fr);
         
+        width: 650px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .menu-blog-data{
         flex-direction: column;
         
     } 
+    .blog-data{
+        width: 312px;
+        height: 400px;
+    }
+    .blog-data img{
+        width: 100%;
+    }
 
     .navmenu{
         width: 100%;
@@ -280,6 +288,8 @@ footer h2{
         
 
     }
+
+    
     .tab-button{
         display: flex;
         justify-content: center;
@@ -289,6 +299,12 @@ footer h2{
         padding: 10px 10px;
         margin-top: -50px;
         font-size: 17px;
+    }
+
+    .f-nav-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
